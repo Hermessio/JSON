@@ -105,6 +105,22 @@ git push
 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON:
 ```bash
 [Edit this file]
+{
+  "№": "DL_01",
+  "Title": "White screen is displayed after tapping 'Free chest' icon in the store",
+  "Environment": "Huawei P30 Pro, Android 10",
+  "Precondition": "The app is lounched",
+  "Inputs": "Login 1 Pass 123",
+  "Steps to reproduce": [
+    "1) Tap 'Store' icon",
+    "2) Tap 'Free chest' icon"
+    ],
+  "Eexpected result": "The screen with the number of diamonds received is opened",
+  "Actual result": "White screen is displayed",
+  "Severity": "Major",
+  "Priority": "Medium",
+  "Attachments": "None"
+}
 ```
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
 ```bash
