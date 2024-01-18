@@ -49,7 +49,7 @@ git push
 9. Создать файл preferences.json:
 ```bash
 touch preferences.json
-
+```
 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
 ```bash
 cat > preferences.json
